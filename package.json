@@ -28,7 +28,7 @@
   "homepage": "https://github.com/Judahh/nerdStuff#readme",
   "dependencies": {
     "backapijh": "^0.2.63",
-    "backappjh": "^0.2.68",
+    "backappjh": "^0.2.69",
     "dotenv": "^6.1.0",
     "flexiblepersistence": "^1.0.22"
   },
