@@ -1,0 +1,7 @@
+typings
+*.js
+*.map
+*.webm
+node_modules
+platforms
+dist

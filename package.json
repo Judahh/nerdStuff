@@ -1,0 +1,44 @@
+{
+  "name": "nerdstuff",
+  "version": "1.0.0",
+  "description": "Free Node Website",
+  "main": "api/server.js",
+  "scripts": {
+    "postinstall": "tsc && webpack",
+    "install": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Judahh/nerdStuff.git"
+  },
+  "keywords": [
+    "free",
+    "website",
+    "node",
+    "app"
+  ],
+  "author": "Judah Holanda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Judahh/nerdStuff/issues"
+  },
+  "homepage": "https://github.com/Judahh/nerdStuff#readme",
+  "dependencies": {
+    "backapijh": "^0.2.58",
+    "backappjh": "^0.2.40",
+    "dotenv": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/webpack": "^4.4.0",
+    "compression-webpack-plugin": "^1.1.11",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "style-loader": "^0.21.0",
+    "typescript": "^2.8.3",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.9.2",
+    "webpack-cli": "^2.1.4"
+  }
+}
