@@ -1,6 +1,7 @@
 typings
 *.js
 *.map
+*.mp4
 *.webm
 node_modules
 platforms
