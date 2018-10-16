@@ -1,4 +1,4 @@
-import * as loader from './../onLoad/loader';
+import { loader } from 'backappjh';
 try { require('./../../style/app.css'); } catch (e) { console.log('Error CSS'); };
 
 let w: any = window;
