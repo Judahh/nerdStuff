@@ -20,13 +20,13 @@
         },
         "arrayAppObject": [
             {
-                "type": "ComponentFontAwesome",
-                "element": {
-                    "style": {
-                        "color": "rgba(0,0,0,0.1)",
-                        "font-size": "70vw"
+                "type":"ComponentImg",
+                "element":{
+                    "style":{
+                        "width":"70vw",
+                        "height":"70vw"
                     },
-                    "className": "fas fa-industry"
+                    "src":"images/logo.svg"
                 }
             }
         ]
