@@ -1,7 +1,6 @@
 {
     "element":{
         "style": {
-            "mix-blend-mode": "difference",
             "color": "white"
         }
     },

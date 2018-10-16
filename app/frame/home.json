@@ -2,7 +2,7 @@
     "background": {
         "element": {
             "style": {
-                "background-color": "dodgerblue",
+                "background-color": "white",
                 "opacity": 1,
                 "visibility": "visible",
                 "position": "fixed",

@@ -141,3 +141,32 @@ font {
 .ClassNeon:hover{
     color: orangered;
 }
+
+header {
+    mix-blend-mode: difference;
+    -o-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    font-smooth:always;
+    font-smoothing: antialiased;
+}
+
+footer {
+    mix-blend-mode: difference;
+    -o-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    font-smooth:always;
+    font-smoothing: antialiased;
+}
+
+body {
+    -o-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    font-smooth:always;
+    font-smoothing: antialiased;
+}
