@@ -163,10 +163,15 @@ footer {
 }
 
 body {
+    mix-blend-mode: difference;
     -o-font-smoothing: antialiased;
     -ms-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
     font-smooth:always;
     font-smoothing: antialiased;
+}
+
+pageBody {
+    mix-blend-mode: difference;
 }
