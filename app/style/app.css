@@ -163,7 +163,7 @@ footer {
 }
 
 body {
-    mix-blend-mode: difference;
+    /* mix-blend-mode: difference; */
     -o-font-smoothing: antialiased;
     -ms-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
@@ -173,5 +173,12 @@ body {
 }
 
 pageBody {
-    mix-blend-mode: difference;
+    /* mix-blend-mode: difference; */
+}
+input:active,input:focus,textarea:active,textarea:focus,select:active,select:focus{
+    background-color: orangered;
+}
+
+::-moz-selection,::selection {
+    background: orangered;
 }
