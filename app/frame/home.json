@@ -19,13 +19,13 @@
         },
         "arrayAppObject": [
             {
-                "type":"ComponentImg",
-                "element":{
-                    "style":{
-                        "width":"70vw",
-                        "height":"70vw"
+                "type": "ComponentImg",
+                "element": {
+                    "style": {
+                        "width": "70vw",
+                        "height": "70vw"
                     },
-                    "src":"images/logo.svg"
+                    "src": "images/logo.svg"
                 }
             }
         ]
@@ -33,10 +33,10 @@
     "arrayAppObject": [
         {
             "type": "ComponentDivisor",
-            "element":{
-                "style":{
-                    "height":"40px",
-                    "width":"100%"
+            "element": {
+                "style": {
+                    "height": "40px",
+                    "width": "100%"
                 }
             }
         },
@@ -45,78 +45,43 @@
             "element": {
                 "style": {
                     "opacity": 1,
-                    "color": "transparent",
                     "width": "100%",
-                    "height": "100%",
-                    "padding": [
-                        5
-                    ],
-                    "mix-blend-mode": "difference"
+                    "margin": "0% 20%"
                 }
             },
             "arrayAppObject": [
                 {
-                    "type": "ComponentItem",
+                    "type": "ComponentDivisor",
                     "element": {
                         "style": {
-                            "padding": "5px",
-                            "textAlign": "center",
-                            "justify-content": "center",
-                            "height": "80%",
-                            "width": "auto",
-                            "display": "flex",
-                            "position": "static",
-                            "align-items": "center"
+                            "width": "60vw"
                         }
                     },
                     "arrayAppObject": [
                         {
-                            "type": "ComponentColorEffect",
+                            "type": "ComponentVideoHolder",
                             "element": {
                                 "style": {
-                                    "color": "white"
+                                    "visibility": "visible",
+                                    "display": "block",
+                                    "boxSizing": "border-box",
+                                    "border": "0",
+                                    "borderRadius": "0",
+                                    "color": "black",
+                                    "height": 315,
+                                    "width": 420
                                 }
                             },
                             "arrayAppObject": [
                                 {
-                                    "type": "ComponentFont",
+                                    "type": "ComponentIframe",
                                     "element": {
-                                        "className": "ClassFuturisticI",
+                                        "src": "https://www.youtube.com/embed/8rwsuXHA7RA",
                                         "style": {
-                                            "width": "100%",
-                                            "font-size": "70px",
-                                            "padding": [
-                                                0
-                                            ]
+                                            "border": "0",
+                                            "borderRadius": "0"
                                         }
-                                    },
-                                    "arrayAppObject": [
-                                        {
-                                            "type": "ComponentAnimationEffect",
-                                            "element": {
-                                                "style": {
-                                                    "display": "block"
-                                                }
-                                            },
-                                            "arrayAppObject": [
-                                                {
-                                                    "type": "ComponentAnimationSubEffect",
-                                                    "arrayAppObject": [
-                                                        {
-                                                            "type": "ComponentAnimationSubEffectHolder",
-                                                            "arrayAppObject": [
-                                                                {
-                                                                    "type": "ComponentInformation",
-                                                                    "information": "title",
-                                                                    "element": {}
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
+                                    }
                                 }
                             ]
                         }
