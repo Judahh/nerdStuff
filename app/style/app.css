@@ -184,16 +184,16 @@ input:active,input:focus,textarea:active,textarea:focus,select:active,select:foc
 }
 
 ::-webkit-input-placeholder { /* Chrome */
-    color: gray;
+    color: dimgray;
   }
   :-ms-input-placeholder { /* IE 10+ */
-    color: gray;
+    color: dimgray;
   }
   ::-moz-placeholder { /* Firefox 19+ */
-    color: gray;
+    color: dimgray;
     opacity: 1;
   }
   :-moz-placeholder { /* Firefox 4 - 18 */
-    color: gray;
+    color: dimgray;
     opacity: 1;
   }
