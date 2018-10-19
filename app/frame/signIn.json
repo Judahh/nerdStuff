@@ -39,8 +39,7 @@
                     "text-align": "center",
                     "justify-content": "center",
                     "display": "flex",
-                    "align-items": "center",
-                    "mix-blend-mode": "difference"
+                    "align-items": "center"
                 }
             },
             "arrayAppObject": [
@@ -49,7 +48,8 @@
                     "element": {
                         "style": {
                             "width": "75%",
-                            "border": "solid 1px white",
+                            "border": "solid 1px black",
+                            "background-color": "white",
                             "padding": "5px",
                             "box-sizing": "border-box"
                         }
@@ -77,8 +77,8 @@
                                             "type": "ComponentTextField",
                                             "element": {
                                                 "style": {
-                                                    "color": "white",
-                                                    "border-bottom": "1px solid white",
+                                                    "color": "black",
+                                                    "border-bottom": "1px solid black",
                                                     "opacity": 1
                                                 },
                                                 "placeholder": "email"
@@ -110,8 +110,8 @@
                                             "type": "ComponentTextField",
                                             "element": {
                                                 "style": {
-                                                    "color": "white",
-                                                    "border-bottom": "1px solid white",
+                                                    "color": "black",
+                                                    "border-bottom": "1px solid black",
                                                     "opacity": 1
                                                 },
                                                 "placeholder": "password",
@@ -157,8 +157,8 @@
                                                     "font-size": "16px",
                                                     "text-align": "center",
                                                     "float": "left",
-                                                    "border": "solid 1px white",
-                                                    "color": "white",
+                                                    "border": "solid 1px black",
+                                                    "color": "black",
                                                     "box-sizing": "border-box"
                                                 }
                                             }
@@ -196,8 +196,8 @@
                                                     "font-size": "16px",
                                                     "text-align": "center",
                                                     "float": "left",
-                                                    "border": "solid 1px white",
-                                                    "color": "white",
+                                                    "border": "solid 1px black",
+                                                    "color": "black",
                                                     "box-sizing": "border-box"
                                                 }
                                             }
