@@ -2,11 +2,10 @@
     "background": {
         "element": {
             "style": {
-                "background-color": "dodgerblue",
+                "background-color": "white",
                 "opacity": 1,
                 "visibility": "visible",
                 "position": "fixed",
-                "filter": "brightness(100%) grayscale(0%) blur(0px)",
                 "zIndex": -1000,
                 "max-width": "inherit",
                 "max-height": "inherit",
@@ -20,13 +19,13 @@
         },
         "arrayAppObject": [
             {
-                "type": "ComponentFontAwesome",
+                "type": "ComponentImg",
                 "element": {
                     "style": {
-                        "color": "rgba(255,255,255,0.1)",
-                        "font-size": "70vw"
+                        "width": "70vw",
+                        "height": "70vw"
                     },
-                    "className": "fas fa-industry"
+                    "src": "images/logo.svg"
                 }
             }
         ]
@@ -40,7 +39,8 @@
                     "text-align": "center",
                     "justify-content": "center",
                     "display": "flex",
-                    "align-items": "center"
+                    "align-items": "center",
+                    "mix-blend-mode": "difference"
                 }
             },
             "arrayAppObject": [

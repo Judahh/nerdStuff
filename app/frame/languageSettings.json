@@ -16,7 +16,19 @@
                 "display": "flex",
                 "align-items": "center"
             }
-        }
+        },
+        "arrayAppObject": [
+            {
+                "type": "ComponentImg",
+                "element": {
+                    "style": {
+                        "width": "70vw",
+                        "height": "70vw"
+                    },
+                    "src": "images/logo.svg"
+                }
+            }
+        ]
     },
     "arrayAppObject": [
         {

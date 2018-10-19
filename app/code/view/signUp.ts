@@ -1,5 +1,5 @@
 import { AppObject, Component, ComponentPageBody } from 'backappjh';
-import { ControlSign } from '../control/ControlSign';
+import { ControlSign } from '../control/controlSign';
 import { Util } from './util';
 import { Authentication } from '../user/authentication';
 import { Permission } from '../user/permission';
