@@ -4,8 +4,8 @@ import { ExternalHandler } from './externalHandler/externalHandler';
 import { HardwareHandler } from './hardwareHandler/hardwareHandler';
 
 export class Api extends BasicApi {
-     constructor() {
-         let hardwareHandler = new HardwareHandler();
-         super(new AppHandler(hardwareHandler), new ExternalHandler(hardwareHandler));
+    constructor() {
+        let hardwareHandler = new HardwareHandler();
+        super(new AppHandler(hardwareHandler), new ExternalHandler(hardwareHandler));
      }
 }
