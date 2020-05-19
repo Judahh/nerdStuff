@@ -29,7 +29,7 @@
   "dependencies": {
     "backapijh": "^0.2.64",
     "backappjh": "^0.2.70",
-    "dotenv": "^6.1.0",
+    "dotenv": "^8.2.0",
     "flexiblepersistence": "^1.0.22"
   },
   "devDependencies": {
